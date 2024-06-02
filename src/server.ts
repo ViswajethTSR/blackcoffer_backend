@@ -16,9 +16,6 @@ app.use(cors());
 
 app.use('/api',getAllBlackcoffer);
 
-
-
-
 app.get('/', (req, res) => {
     res.send("<body> Hi !! This is Viswajeth, Welcome to Blackcoffer Server !! Server is live now</body>");
 });
